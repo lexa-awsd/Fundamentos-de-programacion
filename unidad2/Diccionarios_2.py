@@ -20,9 +20,14 @@ Biblioteca = {
         "título": "Pedro Páramo",
         "autor": ["Juan Rulfo"],
         "géneros": ["Realismo mágico", "Novela corta", "Literatura mexicana"]
+    },
+    "978-950-07-0002-7": {
+        "título": "Rayuela",
+        "autor": ["Julio Cortázar"],
+        "géneros": ["Novela", "Boom latinoamericano"]
     }
 }
 
-Isbn = "978-84-376-0494-7"
-Info_libro = Biblioteca.get(Isbn)          
+Isbn = "978-950-07-0002-7"
+Info_libro = Biblioteca.get(Isbn)
 print("\nInformación del libro:", Info_libro)
